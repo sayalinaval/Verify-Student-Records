@@ -1,0 +1,40 @@
+admin.addPeer("enode://d2547d500b1e982ac93a6ce1dbf34cff6545987740313373ccecb28e095c6ce4294e5cf4be2f002672d30fb717b8bd05e1a12163b24743b907bb7d2c37415928@[128.230.208.73]:30303")
+eth.accounts
+miner.setEtherbase(eth.account[0])
+miner.setEtherbase(eth.accounts[0])
+miner.start(10)
+eth.getBalance(eth.accounts[0])
+miner.stop()
+eth.getTransaction("0x1e091dde7a17eddb6b3d44ae9a1236a87bb7220c1423d1489957d0408c3739")
+eth.getTransaction("0x1e091dde7a17eddb6b3d44ae9a1236a87bb7220c1423d1489957d0408c3739a6")
+admin.addPeer("enode://d2547d500b1e982ac93a6ce1dbf34cff6545987740313373ccecb28e095c6ce4294e5cf4be2f002672d30fb717b8bd05e1a12163b24743b907bb7d2c37415928@[128.230.208.73]:30303")
+admin.peers
+eth.accounts
+eth.getBalance("0x588cbbc4edaf40d7cc8667e12f04b95f14b27448")
+miner.setEtherbase(eth.accounts[0])
+miner.start(10)
+eth.getBalance("0x588cbbc4edaf40d7cc8667e12f04b95f14b27448")
+miner.stop()
+loadScript('lab3/data.js')
+loadScript('data.js')
+viewBlocksTransactions();
+eth.blockNumber
+eth.getBlock(eth.blockNumber-3)
+eth.getBlock('latest', true)
+eth.accounts[0]
+eth.sendTransaction({from:"0x588cbbc4edaf40d7cc8667e12f04b95f14b27448", to:"0x4f7dbc55b742403954918c629bc6ef26843a06c6", value:web3.toWei(1,"ether")})
+eth.accounts[0]
+eth.sendTransaction({from:"0x588cbbc4edaf40d7cc8667e12f04b95f14b27448", to:"0x4f7dbc55b742403954918c629bc6ef26843a06c6", value:web3.toWei(1,"ether")})
+eth.getTransaction("0xfc7db0d2a0273d931c77000dab64eafedfee3ce73f8b765e71a85dbe222ce65e")
+eth.getBlock("99507")
+loadScript('data.js')
+viewBlocksTransactions();
+eth.getBlock("99507")
+eth.getBlock('latest', true)
+eth.getBlock('pending', true)
+exit()
+admin.addPeer("enode://d2547d500b1e982ac93a6ce1dbf34cff6545987740313373ccecb28e095c6ce4294e5cf4be2f002672d30fb717b8bd05e1a12163b24743b907bb7d2c37415928@[128.230.208.73]:30303")
+loadScript("hello.abi")
+loadScript("hello.bin")
+helloVar.greeter.sendTransaction("Hello",{from:eth.accounts[0],gas:700000})
+helloVar.greet.call()
